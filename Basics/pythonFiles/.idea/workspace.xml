@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4b134e0-89d8-4cec-af99-67187c95c2b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonFiles.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.RWImages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.Grayscalling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.ColorExtractionAndFiltering.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../notebookFiles/.ipynb_checkpoints/Lecture 2.4 - Reading, writing and displaying images-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notebookFiles/.ipynb_checkpoints/Lecture 2.4 - Reading, writing and displaying images-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../notebookFiles/Lecture 2.4 - Reading, writing and displaying images.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notebookFiles/Lecture 2.4 - Reading, writing and displaying images.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02.Grayscalling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03.ColorExtractionAndFiltering.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -63,6 +71,7 @@
         <option value="$PROJECT_DIR$/01.RWImages.py" />
         <option value="$PROJECT_DIR$/images/02.Grayscaling.py" />
         <option value="$PROJECT_DIR$/02.Grayscalling.py" />
+        <option value="$PROJECT_DIR$/03.ColorExtractionAndFiltering.py" />
       </list>
     </option>
   </component>
@@ -119,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.02.Grayscalling">
+  <component name="RunManager" selected="Python.03.ColorExtractionAndFiltering">
     <configuration name="01.RWImages" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonFiles" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,8 +171,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="03.ColorExtractionAndFiltering" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonFiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.ColorExtractionAndFiltering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03.ColorExtractionAndFiltering" />
         <item itemvalue="Python.02.Grayscalling" />
         <item itemvalue="Python.01.RWImages" />
       </list>
@@ -220,8 +251,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02.Grayscalling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.ColorExtractionAndFiltering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
