@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4b134e0-89d8-4cec-af99-67187c95c2b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/19.Morphing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20.EdgeDetection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../notebookFiles/.ipynb_checkpoints/Lecture 2.4 - Reading, writing and displaying images-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notebookFiles/.ipynb_checkpoints/Lecture 2.4 - Reading, writing and displaying images-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../notebookFiles/Lecture 2.4 - Reading, writing and displaying images.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notebookFiles/Lecture 2.4 - Reading, writing and displaying images.ipynb" afterDir="false" />
@@ -16,27 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11.Blurring.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12.BlurringWithBoxFilter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/13.BlurringWithGaussian.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,8 +79,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/18.AdaptiveThresholding.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="45">
+              <caret line="3" column="59" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/19.Morphing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -110,13 +101,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/19.Morphing.py">
+        <entry file="file://$PROJECT_DIR$/20.EdgeDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="252">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-2016721222/cv2/cv2/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="9914" column="4" selection-start-line="9914" selection-start-column="4" selection-end-line="9914" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -170,6 +170,7 @@
         <option value="$PROJECT_DIR$/17.ThresholdingAndBinerization.py" />
         <option value="$PROJECT_DIR$/18.AdaptiveThresholding.py" />
         <option value="$PROJECT_DIR$/19.Morphing.py" />
+        <option value="$PROJECT_DIR$/20.EdgeDetection.py" />
       </list>
     </option>
   </component>
@@ -232,28 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.19.Morphing">
-    <configuration name="15.FastNMeansDenoisingBlur" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonFiles" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15.FastNMeansDenoisingBlur.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.20.EdgeDetection">
     <configuration name="16.Sharpening" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonFiles" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -338,13 +318,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="20.EdgeDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonFiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20.EdgeDetection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.20.EdgeDetection" />
         <item itemvalue="Python.19.Morphing" />
         <item itemvalue="Python.18.AdaptiveThresholding" />
         <item itemvalue="Python.17.ThresholdingAndBinerization" />
         <item itemvalue="Python.16.Sharpening" />
-        <item itemvalue="Python.15.FastNMeansDenoisingBlur" />
       </list>
     </recent_temporary>
   </component>
@@ -495,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-2016721222/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="5690" column="4" selection-start-line="5690" selection-start-column="4" selection-end-line="5690" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04.Transformation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -589,20 +583,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/18.AdaptiveThresholding.py">
+    <entry file="file://$PROJECT_DIR$/19.Morphing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="525">
+          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/19.Morphing.py">
+    <entry file="file://$PROJECT_DIR$/18.AdaptiveThresholding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="45">
+          <caret line="3" column="59" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-2016721222/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="9914" column="4" selection-start-line="9914" selection-start-column="4" selection-end-line="9914" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20.EdgeDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
