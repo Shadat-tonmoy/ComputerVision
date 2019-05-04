@@ -1,19 +1,19 @@
 import numpy as np
 import cv2
 
-input = cv2.imread('./images/input.jpg')
+input = cv2.imread('./images/input.jpg')        # opening original image
 
-B, G, R = input[150, 202]
+B, G, R = input[150, 202]                       # extracting RGB value of a pixel into image grid
 
-print input.shape
+print input.shape                               # printing image shape. Image is represented as a 3D numpy array
 
-print B, G, R
+print B, G, R                                   # printing the values of RGB
 
-gray_image = cv2.cvtColor(input, cv2.COLOR_BGR2GRAY)
+gray_image = cv2.cvtColor(input, cv2.COLOR_BGR2GRAY)        # converting original image to gray scale image
 
-print gray_image.shape
+print gray_image.shape                  # printing gray scale image shape. Image is represented as a 3D numpy array
 
-print gray_image[0, 125]
+print gray_image[0, 125]                # printing gray scale value of a pixel
 
 hsv_image = cv2.cvtColor(input, cv2.COLOR_BGR2HSV)
 
