@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4b134e0-89d8-4cec-af99-67187c95c2b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12.BlurringWithBoxFilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.BlurringWithGaussian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14.MedianAndBileteralBlurring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15.FastNMeansDenoisingBlur.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../notebookFiles/.ipynb_checkpoints/Lecture 2.4 - Reading, writing and displaying images-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notebookFiles/.ipynb_checkpoints/Lecture 2.4 - Reading, writing and displaying images-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../notebookFiles/Lecture 2.4 - Reading, writing and displaying images.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notebookFiles/Lecture 2.4 - Reading, writing and displaying images.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.ColorExtractionAndFiltering.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.ColorExtractionAndFiltering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.Blurring.py" beforeDir="false" afterPath="$PROJECT_DIR$/11.Blurring.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +66,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12.BlurringWithBoxFilter.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13.BlurringWithGaussian.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/14.MedianAndBileteralBlurring.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/15.FastNMeansDenoisingBlur.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +168,9 @@
         <option value="$PROJECT_DIR$/03.ColorExtractionAndFiltering.py" />
         <option value="$PROJECT_DIR$/11.Blurring.py" />
         <option value="$PROJECT_DIR$/12.BlurringWithBoxFilter.py" />
+        <option value="$PROJECT_DIR$/13.BlurringWithGaussian.py" />
+        <option value="$PROJECT_DIR$/14.MedianAndBileteralBlurring.py" />
+        <option value="$PROJECT_DIR$/15.FastNMeansDenoisingBlur.py" />
       </list>
     </option>
   </component>
@@ -194,49 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.12.BlurringWithBoxFilter">
-    <configuration name="03.ColorExtractionAndFiltering" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonFiles" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.ColorExtractionAndFiltering.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10.MaskingWithBitwiseOperation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonFiles" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.MaskingWithBitwiseOperation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.15.FastNMeansDenoisingBlur">
     <configuration name="11.Blurring" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonFiles" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -279,7 +276,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="resize_image_batch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="13.BlurringWithGaussian" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonFiles" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,7 +288,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resize_image_batch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13.BlurringWithGaussian.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="14.MedianAndBileteralBlurring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonFiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14.MedianAndBileteralBlurring.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="15.FastNMeansDenoisingBlur" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonFiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15.FastNMeansDenoisingBlur.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,11 +341,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.15.FastNMeansDenoisingBlur" />
+        <item itemvalue="Python.14.MedianAndBileteralBlurring" />
+        <item itemvalue="Python.13.BlurringWithGaussian" />
         <item itemvalue="Python.12.BlurringWithBoxFilter" />
         <item itemvalue="Python.11.Blurring" />
-        <item itemvalue="Python.resize_image_batch" />
-        <item itemvalue="Python.03.ColorExtractionAndFiltering" />
-        <item itemvalue="Python.10.MaskingWithBitwiseOperation" />
       </list>
     </recent_temporary>
   </component>
@@ -407,13 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-2016721222/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144225">
-          <caret line="9448" column="4" selection-start-line="9448" selection-start-column="4" selection-end-line="9448" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10.MaskingWithBitwiseOperation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -500,6 +532,43 @@
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.BlurringWithGaussian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-2016721222/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="2460" column="4" selection-start-line="2460" selection-start-column="4" selection-end-line="2460" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.MedianAndBileteralBlurring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.FastNMeansDenoisingBlur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
