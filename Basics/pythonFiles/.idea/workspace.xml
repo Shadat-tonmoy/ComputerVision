@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4b134e0-89d8-4cec-af99-67187c95c2b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09.BritnessControllWithArithmaticOperation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.MaskingWithBitwiseOperation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resize_image_batch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.Blurring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../notebookFiles/.ipynb_checkpoints/Lecture 2.4 - Reading, writing and displaying images-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notebookFiles/.ipynb_checkpoints/Lecture 2.4 - Reading, writing and displaying images-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../notebookFiles/Lecture 2.4 - Reading, writing and displaying images.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notebookFiles/Lecture 2.4 - Reading, writing and displaying images.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.Grayscalling.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.Grayscalling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resize_image_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/resize_image_batch.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10.MaskingWithBitwiseOperation.py">
+        <entry file="file://$PROJECT_DIR$/04.Transformation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="285">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -31,10 +31,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06.Resizing.py">
+        <entry file="file://$PROJECT_DIR$/05.Rotation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="90" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
+            <state relative-caret-position="435">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resize_image_batch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="19" column="105" selection-start-line="19" selection-start-column="105" selection-end-line="19" selection-end-column="105" />
+            <state relative-caret-position="285">
+              <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -55,10 +55,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-2016721222/cv2/cv2/__init__.py">
+        <entry file="file://$PROJECT_DIR$/11.Blurring.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="9448" column="4" selection-start-line="9448" selection-start-column="4" selection-end-line="9448" selection-end-column="4" />
+            <state relative-caret-position="135">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02.Grayscalling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,7 +96,6 @@
         <option value="$PROJECT_DIR$/01.R/WImages.py" />
         <option value="$PROJECT_DIR$/01.RWImages.py" />
         <option value="$PROJECT_DIR$/images/02.Grayscaling.py" />
-        <option value="$PROJECT_DIR$/02.Grayscalling.py" />
         <option value="$PROJECT_DIR$/03.ColorExtractionAndFiltering.py" />
         <option value="$PROJECT_DIR$/04.Transformation.py" />
         <option value="$PROJECT_DIR$/05.Rotation.py" />
@@ -91,14 +105,16 @@
         <option value="$PROJECT_DIR$/09.BritnessControllWithArithmaticOperation.py" />
         <option value="$PROJECT_DIR$/10.MaskingWithBitwiseOperation.py" />
         <option value="$PROJECT_DIR$/resize_image_batch.py" />
+        <option value="$PROJECT_DIR$/11.Blurring.py" />
+        <option value="$PROJECT_DIR$/02.Grayscalling.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="119" />
-    <option name="width" value="1026" />
-    <option name="height" value="557" />
+    <option name="x" value="2049" />
+    <option name="y" value="25" />
+    <option name="width" value="683" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -108,7 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,15 +131,11 @@
               <item name="pythonFiles" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonFiles" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pythonFiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,6 +170,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.resize_image_batch">
+    <configuration name="03.ColorExtractionAndFiltering" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonFiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.ColorExtractionAndFiltering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="06.Resizing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonFiles" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,27 +204,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06.Resizing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="08.CroppingImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonFiles" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08.CroppingImage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,10 +278,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.resize_image_batch" />
-        <item itemvalue="Python.06.Resizing" />
+        <item itemvalue="Python.03.ColorExtractionAndFiltering" />
         <item itemvalue="Python.10.MaskingWithBitwiseOperation" />
+        <item itemvalue="Python.06.Resizing" />
         <item itemvalue="Python.09.BritnessControllWithArithmaticOperation" />
-        <item itemvalue="Python.08.CroppingImage" />
       </list>
     </recent_temporary>
   </component>
@@ -288,15 +299,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="1366" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3565365" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39898133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,56 +332,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/images/Trump.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.RWImages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02.Grayscalling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.ColorExtractionAndFiltering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04.Transformation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05.Rotation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/07.ImagePyramidForResizing.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -402,15 +363,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10.MaskingWithBitwiseOperation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/bg_compressed/bg_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bg_compressed/bg_6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bg_compressed/bg_2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/06.Resizing.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -422,28 +382,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/bg_compressed/bg_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/bg_compressed/bg_6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/bg_compressed/bg_2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-2016721222/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="144225">
           <caret line="9448" column="4" selection-start-line="9448" selection-start-column="4" selection-end-line="9448" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10.MaskingWithBitwiseOperation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.RWImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.ColorExtractionAndFiltering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resize_image_batch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="19" column="105" selection-start-line="19" selection-start-column="105" selection-end-line="19" selection-end-column="105" />
+        <state relative-caret-position="285">
+          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05.Rotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.Transformation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.Blurring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.Grayscalling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
