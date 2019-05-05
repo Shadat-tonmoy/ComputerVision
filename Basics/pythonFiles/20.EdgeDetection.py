@@ -17,27 +17,57 @@ Canny Edge Detection algorithm -
 04. Apply thresholds (If pixel is within the upper and lower thresholds,it is considered as an edge.Known as hysteresis)
 '''
 
-input_image = openCV.imread("./images/Origin_of_Species.jpg")
+input_image = openCV.imread("./images/input.jpg",0)
 
-sobel_x = openCV.Sobel(input_image, openCV.CV_64F, 0, 1, ksize=5)
-
-sobel_y = openCV.Sobel(input_image, openCV.CV_64F, 1, 0, ksize=5)
-
-sobel_OR = openCV.bitwise_or(sobel_x, sobel_y)
-
-openCV.imshow("Sobel X", sobel_x)
-
-openCV.waitKey()
-
-openCV.imshow("Sobel Y", sobel_x)
-
-openCV.waitKey()
-
-openCV.imshow("Sobel OR", sobel_OR)
+openCV.imshow("Original Image", input_image)
 
 openCV.waitKey()
 
 openCV.destroyAllWindows()
+
+# sobel_x = openCV.Sobel(input_image, openCV.CV_64F, 0, 1, ksize=5)
+#
+# sobel_y = openCV.Sobel(input_image, openCV.CV_64F, 1, 0, ksize=5)
+#
+# sobel_OR = openCV.bitwise_or(sobel_x, sobel_y)
+#
+# openCV.imshow("Sobel X", sobel_x)
+#
+# openCV.waitKey()
+#
+# openCV.imshow("Sobel Y", sobel_x)
+#
+# openCV.waitKey()
+#
+# openCV.imshow("Sobel OR", sobel_OR)
+#
+# openCV.waitKey()
+#
+# openCV.destroyAllWindows()
+#
+# laplacian = openCV.Laplacian(input_image, openCV.CV_64F)
+#
+# openCV.imshow("Laplacian", laplacian)
+#
+# openCV.waitKey()
+#
+# openCV.destroyAllWindows()
+
+'''
+Canny is widely used in computer vision. Using opencv we need to pass 2 parameters threshold1 and threshold2
+Any gradient value larger than threshold2 is considered to be an edge 
+Any gradient value below threshold1 is considered not to be an edge
+'''
+
+canny_edge = openCV.Canny(input_image, 10, 160)
+
+openCV.imshow("Canny", canny_edge)
+
+openCV.waitKey()
+
+openCV.destroyAllWindows()
+
+
 
 
 
