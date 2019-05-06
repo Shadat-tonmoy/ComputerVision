@@ -10,15 +10,15 @@ x_size = image.shape[1]
 color_select = np.copy(image)
 line_select = np.copy(image)
 
-red_threshold = 0
-green_threshold = 0
-blue_threshold = 0
+red_threshold = 200
+green_threshold = 200
+blue_threshold = 200
 
 rgb_threshold = [red_threshold, green_threshold, blue_threshold]
 
 left_bottom = [0, 539]
-right_bottom = [900, 300]
-apex = [400, 0]
+right_bottom = [900, 539]
+apex = [475, 320]
 
 fit_left = np.polyfit((left_bottom[0], apex[0]), (left_bottom[1], apex[1]), 1)
 fit_right = np.polyfit((right_bottom[0], apex[0]), (right_bottom[1], apex[1]), 1)
@@ -43,6 +43,8 @@ color_select[color_threshold] = [0, 0, 0]
 line_select[~color_threshold & region_threshold] = [255, 0, 0]
 
 plt.imshow(color_select)
+
+plt.show()
 
 plt.imshow(line_select)
 

@@ -2,40 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78fbefc7-f47b-4af0-bb8b-93f2bdfe9a98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/03.ColorSelectionWithRegionMasking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/color_region.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/colorSelection.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/colorSelection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/notebookFiles/.ipynb_checkpoints/Beginning Tips-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/notebookFiles/.ipynb_checkpoints/Beginning Tips-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/notebookFiles/.ipynb_checkpoints/Lecture 2.4 - Reading, writing and displaying images-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/notebookFiles/.ipynb_checkpoints/Lecture 2.4 - Reading, writing and displaying images-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/notebookFiles/Beginning Tips.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/notebookFiles/Beginning Tips.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/notebookFiles/Lecture 2.4 - Reading, writing and displaying images.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/notebookFiles/Lecture 2.4 - Reading, writing and displaying images.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/.idea/pythonFiles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/.idea/pythonFiles.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/01.RWImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/01.RWImages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/02.Grayscalling.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/02.Grayscalling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/03.ColorExtractionAndFiltering.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/03.ColorExtractionAndFiltering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/04.Transformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/04.Transformation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/05.Rotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/05.Rotation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/06.Resizing.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/06.Resizing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/07.ImagePyramidForResizing.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/07.ImagePyramidForResizing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/08.CroppingImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/08.CroppingImage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/09.BritnessControllWithArithmaticOperation.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/09.BritnessControllWithArithmaticOperation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/10.MaskingWithBitwiseOperation.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/10.MaskingWithBitwiseOperation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/11.Blurring.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/11.Blurring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/12.BlurringWithBoxFilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/12.BlurringWithBoxFilter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/13.BlurringWithGaussian.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/13.BlurringWithGaussian.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/14.MedianAndBileteralBlurring.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/14.MedianAndBileteralBlurring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/15.FastNMeansDenoisingBlur.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/15.FastNMeansDenoisingBlur.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/16.Sharpening.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/16.Sharpening.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/17.ThresholdingAndBinerization.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/17.ThresholdingAndBinerization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/18.AdaptiveThresholding.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/18.AdaptiveThresholding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/19.Morphing.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/19.Morphing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/20.EdgeDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/20.EdgeDetection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/21.PerspectiveTransformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/21.PerspectiveTransformation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/pythonFiles/resize_image_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/pythonFiles/resize_image_batch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/03.ColorSelectionWithRegionMasking.py" beforeDir="false" afterPath="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/03.ColorSelectionWithRegionMasking.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,11 +53,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/03.ColorSelectionWithRegionMasking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="177">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/color_region.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -112,12 +90,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/01.ColorSelection.py" />
         <option value="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/02.RegionMasking.py" />
+        <option value="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/color_region.py" />
         <option value="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/03.ColorSelectionWithRegionMasking.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1366" />
     <option name="y" value="-2" />
     <option name="width" value="1366" />
     <option name="height" value="770" />
@@ -158,10 +136,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/UdacityComputerVision/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental" />
       <recent name="$PROJECT_DIR$/UdacityComputerVision/images" />
       <recent name="$PROJECT_DIR$/Projects/images" />
     </key>
@@ -178,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.03.ColorSelectionWithRegionMasking">
+  <component name="RunManager" selected="Python.color_region">
     <configuration name="01.ColorSelection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,27 +171,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/01.ColorSelection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="01.RWImages" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ComputerVision" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basics/pythonFiles" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basics/pythonFiles/01.RWImages.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,6 +221,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="color_region" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/color_region.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sketchIt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.color_region" />
         <item itemvalue="Python.03.ColorSelectionWithRegionMasking" />
         <item itemvalue="Python.02.RegionMasking" />
         <item itemvalue="Python.01.ColorSelection" />
         <item itemvalue="Python.sketchIt" />
-        <item itemvalue="Python.01.RWImages" />
       </list>
     </recent_temporary>
   </component>
@@ -308,15 +287,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24944155" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49575552" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49575552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,10 +388,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/Color plus Region Selection/color_region.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/color_region.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UdacityComputerVision/ComputerVisionFundamental/03.ColorSelectionWithRegionMasking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="177">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
